@@ -67,10 +67,7 @@ export default function Navbar() {
           </div>
         </nav>
         
-     
-
-       
-            <div className="nav-item">
+        <div className="nav-item">
             <div className="amount-container">
               <p className="total-amount">{amount}</p>
             </div>
@@ -78,7 +75,6 @@ export default function Navbar() {
             <i className="fa fa-shopping-cart cart-icon"></i>{" "}
           </Link>
           </div>
-        {/* </div>  */}
       </div>
       <label className="nav-name nav-logo">GWACH</label>
       

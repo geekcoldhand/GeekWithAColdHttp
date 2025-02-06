@@ -57,11 +57,11 @@ width: 1.5rem;
 }
 
 .nav-name{
-  font-size: 4em;
+  font-size: 3em;
   letter-spacing: .2em;
   width: 100%;
   text-align: center;
-  font-weight: 200;
+  font-weight: 100;
 }
 .nav-logo{
 
@@ -71,8 +71,15 @@ margin-bottom: .9rem;
 padding-top: 1vh;
 
 }
+.off-screen-links::before{
+  content: "";
+  backdrop-filter: blur(1);
+  background-image: url("../../images/StreetATLCropjpg.jpg");
+  background-position: bottom;
+}
+
 .off-screen-links{
-background-color: rgb(154, 145, 145);
+ background-color: #323232b5;
 height: 100vh;
 width: 100%;
 max-width: 450px;
@@ -91,7 +98,7 @@ transition: .3 ease;
 .ham-menu{
 z-index: 3;
 height: 50px;
-width: 50px;
+width: 30px;
 position: relative;
 cursor: pointer;
 }
@@ -113,17 +120,21 @@ cursor: pointer;
   border-radius: 10rem;
   position: absolute;
   top: 50%;
-  left: -55px;
+  left: -45px;
   transform: translate(50%, -50%);
   transition: all 0.3s ease-in-out;
 }
 
 .ham-menu span:nth-child(1){
-  top: 25%;
+  top: 58%;
+}
+.ham-menu span:nth-child(2){
+  top: 100%;
 }
 .ham-menu span:nth-child(3){
   top: 78%;
 }
+
 
 .ham-menu.active{
 
@@ -208,8 +219,10 @@ cursor: pointer;
 }
 
 .nav-item {
-  display: block;
-  position: relative;
+  display: flex;
+  position: absolute;
+  top: 35px;
+  right: 35px;
 }
 nav svg {
   width: 2rem;
