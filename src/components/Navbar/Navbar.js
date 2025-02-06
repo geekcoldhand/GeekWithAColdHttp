@@ -76,7 +76,11 @@ export default function Navbar() {
           </Link>
           </div>
       </div>
-      <label className="nav-name nav-logo">GWACH</label>
+      <li className="links"> 
+        <Link to="/"> <label id = "logo" className="nav-name nav-logo">GWACH</label>
+        </Link>
+        </li>
+      
       
     </div>
   );

@@ -53,6 +53,7 @@ Global Styles
 */
 #root{
   width: 100vw;
+  overflow-x: hidden;
 }
 * {
   margin: 0;
@@ -60,7 +61,11 @@ Global Styles
   box-sizing: border-box;
   font-family: "Louis Vuitton Web", "Louis Vuitton Web Fallback", "Helvetica Neue", "Helvetica", Arial, sans-serif;
 }
-
+html, body {
+  height: 100%;
+  width: 100%; /* Make sure the body and html elements take up the full height */
+ 
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;

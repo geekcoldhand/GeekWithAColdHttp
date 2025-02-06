@@ -51,8 +51,8 @@ width: 1.5rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 80%;
-  height: 2vh;
+  width: 100%;
+  height: fit-content;
   text-align: center;
 }
 
@@ -98,7 +98,7 @@ transition: .3 ease;
 .ham-menu{
 z-index: 3;
 height: 50px;
-width: 30px;
+width: 35px;
 position: relative;
 cursor: pointer;
 }
@@ -120,7 +120,7 @@ cursor: pointer;
   border-radius: 10rem;
   position: absolute;
   top: 50%;
-  left: -45px;
+  left: 28px;
   transform: translate(50%, -50%);
   transition: all 0.3s ease-in-out;
 }
@@ -149,13 +149,17 @@ cursor: pointer;
   border-color: var(--primaryLightColor)
 }
 .links a {
-  padding: 42px 0px;
+  padding: 12px 0px;
   transition: all 0.2s ease-in-out;
   margin-inline: 1rem;
-  color: #000;
+  color: whitesmoke;
   width: fit-content;
 }
-
+#logo{
+  color: black;
+  padding: 0;
+  margin: 0;
+}
 .links {
   display: flex;
   justify-content: center;
@@ -250,6 +254,7 @@ nav svg {
   font-family: cursive;
 }
 
+/* Tablet */
 @media (min-width: 767px) {
   .nav-container {
     padding: 10px;
@@ -286,6 +291,8 @@ nav svg {
   }
 }
 
+
+/* Moblie */
 @media only screen and (max-width: 767px) and (min-width: 350px) {
   .links a:focus{
     border:none;
@@ -299,7 +306,8 @@ nav svg {
   .nav-name{
     width: 100%;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.4em;
+    letter-spacing: .1em;
   }
 
   .links a {
