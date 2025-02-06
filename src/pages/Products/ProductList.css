@@ -1,13 +1,18 @@
 .centered-content{
   width: 100%;
+  height: 100vh;;
   justify-content: center;
   align-items: center;
-  background: url("../../images/backgroundNotebook.jpeg");
-
+  background-color: rgb(246, 249, 252);
+  object-fit: contain;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 .cocktails-center {
     width: 100%;
+    height: 100%;
     margin: 0 auto;
     max-width: var(--fullWidth);
     display: grid;
@@ -45,7 +50,7 @@
     border-style: none;
     display: flex;
     flex-direction: column;
-    ÷max-width: min(60vw, 300px); /* Example max width, adjust as needed */
+    max-width: min(60vw, 300px); /* Example max width, adjust as needed */
     width: 60vw; 
     align-items: center;
 }

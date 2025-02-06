@@ -203,7 +203,7 @@ const DragZone = () => {
           <button className="macos-buttons red"></button>
           <button className="macos-buttons green"></button>
           <button className="macos-buttons yellow"></button>
-          <span className="macos-text"> Featured Projects</span>
+          <span className="macos-text"> Fit Sandbox</span>
         </div>
         <img className="box pants" src={pant1} alt="logo" />
         <img className="box pants" src={pant3} alt="logo" />

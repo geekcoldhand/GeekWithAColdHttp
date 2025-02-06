@@ -9,7 +9,7 @@ export default function Home() {
     <div className="info">
     <span id="banner">
         <div class="banner-message"> 
-        Shop our new collection!
+        Geek With A Cold Hand
     </div> 
     </span>
 
@@ -23,13 +23,15 @@ export default function Home() {
           <Link to="/products">
             <button>Get Started</button>
           </Link>
-        </div>
-
+          </div>
       </div>
-      <div className="pic toggle"></div>
+     
       </div>
+      <div className="drag-section">
       <DragZone/>
+        
       <Footer/>
+      </div>
     </div>
   );
 }
