@@ -21,7 +21,7 @@ export default function Home() {
           <p>Buy new stock at reasonable cost</p>
 
           <Link to="/products">
-            <button>Get Started</button>
+            <button>Start Shopping</button>
           </Link>
           </div>
       </div>

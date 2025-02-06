@@ -14,7 +14,6 @@ export default function Navbar() {
 
 
   useEffect(() => {
-    // Find your elements INSIDE useEffect
     const hamMenu = document.querySelector(".ham-menu");
     const offScreenLinks = document.querySelector(".off-screen-links");
     const links = document.querySelectorAll(".links");
@@ -81,8 +80,8 @@ export default function Navbar() {
           </div>
         {/* </div>  */}
       </div>
-
-      <img src={logo} className="nav-logo"></img>
+      <label className="nav-name nav-logo">GWACH</label>
+      
     </div>
   );
 }

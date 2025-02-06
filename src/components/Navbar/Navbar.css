@@ -53,14 +53,23 @@ width: 1.5rem;
   flex-direction: column;
   width: 80%;
   height: 2vh;
+  text-align: center;
+}
+
+.nav-name{
+  font-size: 4em;
+  letter-spacing: .2em;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
 }
 .nav-logo{
-width: 8vw;
+
 height: 100%;
 margin-inline: 2rem;
 margin-bottom: .9rem;
 padding-top: 1vh;
-animation: Grow 3s infinite; 
+
 }
 .off-screen-links{
 background-color: rgb(154, 145, 145);
@@ -80,7 +89,7 @@ transition: .3 ease;
 }
 
 .ham-menu{
-  z-index: 3;
+z-index: 3;
 height: 50px;
 width: 50px;
 position: relative;
@@ -104,7 +113,7 @@ cursor: pointer;
   border-radius: 10rem;
   position: absolute;
   top: 50%;
-  bottom: 50%;
+  left: -55px;
   transform: translate(50%, -50%);
   transition: all 0.3s ease-in-out;
 }
@@ -274,8 +283,10 @@ nav svg {
     justify-content: space-between;
   }
 
-  .nav-logo{
-    width: 20vw;
+  .nav-name{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
   }
 
   .links a {
