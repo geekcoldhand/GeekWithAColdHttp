@@ -17,8 +17,8 @@ export default function Home() {
 
       <div className="content">
         <div className="head">
-          <h1>Ready for new stuff</h1>
-          <p>Buy new stock at reasonable cost</p>
+          <h1>Simple Sophistication </h1>
+          <p>Shop Ivy League, our new collection of clothes, bags, head-gear and more</p>
 
           <Link to="/products">
             <button>Start Shopping</button>
